@@ -18,7 +18,7 @@ local config = {
   },
 
   -- Set colorscheme
-  colorscheme = "default_theme",
+  colorscheme = "catppuccin",
 
   -- Override highlight groups in any theme
   highlights = {
@@ -93,6 +93,14 @@ local config = {
       --     require("lsp_signature").setup()
       --   end,
       -- },
+      --
+        {
+          "catppuccin/nvim",
+          as = "catppuccin",
+          config = function()
+            require("catppuccin").setup {}
+          end,
+        },
     },
     -- All other entries override the setup() call for default plugins
     ["null-ls"] = function(config)
