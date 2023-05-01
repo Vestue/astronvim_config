@@ -1,6 +1,16 @@
-# AstroNvim User Configuration Example
+# AstroNvim User Configuration
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+A user configuration for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+
+## Configuration
+
+### Themes
+
+Currently uses the default theme but will be set up to use [Catppuccin](https://github.com/catppuccin/nvim)
+
+### Scripts
+
+- bgToggle: Toggle between transparent and opaque background.
 
 ## 🛠️ Installation
 
