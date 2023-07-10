@@ -9,4 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  -- To easily navigate between neovim and tmux windows
+  { "christoomey/vim-tmux-navigator", lazy = false, },
 }
